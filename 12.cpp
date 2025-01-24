@@ -9,7 +9,6 @@ int main() {
     cout << "Количество столбцов: ";
     cin >> y;
     
-    // создаем матрицу
     int matrix[x][y];
     
     cout << endl << "Введите элементы матрицы." << endl;
@@ -28,7 +27,6 @@ int main() {
         cout << endl;
     }
 
-    // считаем сумму чисел в строках
     for (int i = 0; i < x; i++) {
         int sum = 0;
         for (int j = 0; j < y; j++) {
