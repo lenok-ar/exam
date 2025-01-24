@@ -1,3 +1,4 @@
+//Нахождение максимального элемента массива
 #include <iostream>
 using namespace std;
 
