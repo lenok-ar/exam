@@ -14,7 +14,6 @@ int main() {
         return 1;
     }
     
-    // создаем матрицу
     int matrix[x][y];
     
     cout << endl << "Введите элементы матрицы." << endl;
