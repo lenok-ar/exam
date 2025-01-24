@@ -9,7 +9,6 @@ int main() {
     cout << "Количество столбцов: ";
     cin >> y;
     
-    // создаем матрицу
     int matrix[x][y];
     
     cout << "Введите элементы матрицы." << endl;
@@ -28,19 +27,18 @@ int main() {
         cout << endl;
     }
     
-    // создаем новую матрицу для поворота
-    int newmatrix[y][x];
+    int turnmatrix[y][x];
     
     for (int i = 0; i < x; i++) {
         for (int j = 0; j < y; j++) {
-            newmatrix[j][x-1-i] = matrix[i][j];
+            turnmatrix[j][x-1-i] = matrix[i][j];
         }
     }
 
     cout << "Матрица после поворота на 90 градусов по часовой стрелке:" << endl;
     for (int i = 0; i < y; i++) {
         for (int j = 0; j < x; j++) {
-            cout << newmatrix[i][j] << "\t";
+            cout << turnmatrix[i][j] << "\t";
         }
         cout << endl;
     }
