@@ -1,3 +1,4 @@
+//Нахождение суммы и произведения элементов массива
 #include <iostream>
 using namespace std;
 
