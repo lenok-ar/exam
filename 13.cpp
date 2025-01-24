@@ -14,7 +14,6 @@ int main() {
         return 1;
     }
     
-    // создаем матрицу
     int matrix[x][y];
     
     cout << endl << "Введите элементы матрицы." << endl;
@@ -32,8 +31,7 @@ int main() {
         }
         cout << endl;
     }
-    
-    // считаем сумму отрицательных чисел
+
     for (int i = 0; i < y; i++) {
         int sum = 0;
         for (int j = 0; j < x; j++) {
