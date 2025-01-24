@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    
     int n;
 
     cout << "Введите размер матрицы n x n: ";
@@ -13,7 +12,6 @@ int main() {
         return 1;
     }
 
-    // создаем матрицу
     int matrix[n][n];
 
     cout << "Введите элементы матрицы:" << endl;
