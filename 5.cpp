@@ -9,7 +9,6 @@ int main() {
     cout << "Количество столбцов: ";
     cin >> y;
     
-    // создаем матрицу
     int matrix[x][y];
     
     cout << endl << "Введите элементы матрицы.";
@@ -28,19 +27,18 @@ int main() {
         cout << endl;
     }
     
-    // транспонируем матрицу
-    int transp[y][x];
+    int T[y][x];
 
     for (int i=0; i < y; i++) {
         for (int j = 0; j < x; j++) {
-            transp[i][j] = matrix[j][i];
+            T[i][j] = matrix[j][i];
         }
     }
     
     cout << endl << "Транспонированная матрица:" << endl;
     for (int i=0; i < y; i++) {
         for (int j = 0; j < x; j++) {
-            cout << transp[i][j] << "\t";
+            cout << T[i][j] << "\t";
         }
         cout << endl;
     }
