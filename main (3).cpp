@@ -9,7 +9,6 @@ int main() {
     cout << "Количество столбцов: ";
     cin >> y;
     
-    // Проверка размеров матрицы
     if (x > 5 || y > 5) {
         cout << "Массив не должен превышать размеры 5x5";
         return 1;
@@ -45,7 +44,6 @@ int main() {
     matrix[xmax][ymax] = min;
     matrix[xmin][ymin] = max;
     
-    // поменялись макс и мин элементы
     cout << endl << "Матрица обновлена:" << endl;
     for (int i = 0; i < x; i++) {
         for (int j = 0; j < y; j++) {
