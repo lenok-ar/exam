@@ -1,3 +1,4 @@
+//Нахождение минимального элементами массива
 #include <iostream>
 using namespace std;
 
