@@ -1,3 +1,4 @@
+//Определить, является ли введенное натуральное число простым
 #include <iostream>
 #include <cmath>
 using namespace std;
